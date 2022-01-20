@@ -1,22 +1,30 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <title>Reservia</title>
 </head>
 
 <body>
 
-<div class="hero">
-    <h1>Quick Project</h1>
-    <p class="description">
-        This is <a href="https://github.com/mister2dev/reservia" target="_blank">quick starter project</a> running to maximise compatibilities.
-    </p>
+    <header>
+        <img src="images/logo/Reservia3x.png" alt="logo reservia">
+        <nav>
+            <a href="">Hebergements</a>
+            <a href="">Activités</a>
+        </nav>
+    </header>
 
-</div>
+    <section>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre de ville ou en pleine nature</p>
+    </section>
 
+    <form method="post" action="resultat.html">
+        <input type="text" placeholder="Marseille, France">
+        <button>Rechercher</button>
 
-<script type="module" src="src/index.ts"></script>
+    </form>
 
 </body>
 </html>
