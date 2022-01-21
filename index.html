@@ -2,29 +2,44 @@
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet"> 
     <title>Reservia</title>
 </head>
 
 <body>
 
-    <header>
-        <img src="images/logo/Reservia3x.png" alt="logo reservia">
-        <nav>
-            <a href="">Hebergements</a>
-            <a href="">Activités</a>
-        </nav>
+    <header class="header">
+        <div class="flexheader">
+            <img src="images/logo/Reservia3x.png" alt="logo reservia">
+            <nav>
+                <ul>
+                    <li><a href="">Hebergements</a></li>
+                    <li><a href="">Activités</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre de ville ou en pleine nature</p>
     </header>
 
     <section>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre de ville ou en pleine nature</p>
+        <form method="post" action="resultat.html">
+            <input type="text" placeholder="Marseille, France">
+            <button>Rechercher</button>
+        </form>
+        <div class="searchFilter">
+            <h2>Filtres</h2>
+            <span>Économique</span>
+            <span>Familial</span>
+            <span>Romantique</span>
+            <span>Animaux autorisés</span>
+        </div>
+        <div class="searchResult">
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </section>
-
-    <form method="post" action="resultat.html">
-        <input type="text" placeholder="Marseille, France">
-        <button>Rechercher</button>
-
-    </form>
 
 </body>
 </html>

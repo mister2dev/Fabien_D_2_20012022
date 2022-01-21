@@ -54,15 +54,37 @@ img, video, svg, picture {
   display: block;
 }
 img, video {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
 /*──────FinReset───────*/
 
 body {
-  font-family: 'eesti';
   font-size: 16px;
-  background: #FDFDFD;
-  font-family: 'Fanwood Text', serif;
+  background: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.flexheader {
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+
+.flexheader li {
+  padding: 32px;
+  display: inline;
+}
+
+.flexheader ul {
+  display: flex;
+}
+
+.flexheader img {
+  width: 97px;
+  height: auto;
 }
