@@ -103,6 +103,30 @@ nav a:hover {
 }
 
 .headerSubTitle {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
 
+form {
+  border-radius: 16px;
+  display: flex;
+  font-weight: 900;
+  border: 1px solid #F2F2F2;
+  margin-bottom: 26;
+}
+
+form input {
+  padding: 10;
+}
+
+form button {
+  padding: 12;
+  color: white;
+  background: #0065FC;
+  border-radius: 0 16px 16px 0;
+}
+
+form i {
+  padding: 16 20 16 18;
+  border-radius: 16px 0 0 16px;
+  background: #F2F2F2;
 }
