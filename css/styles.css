@@ -66,25 +66,43 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+main {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 32 0 32;
+}
+
 .flexheader {
-  padding: 32px;
+  padding: 30 0 30 0;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 } 
 
-
-.flexheader li {
+nav a {
   padding: 32px;
-  display: inline;
 }
 
-.flexheader ul {
-  display: flex;
+nav a:hover {
+  color: #0065FC;
+  padding-top: 41px;
+  border-top: 2px solid #0065FC;
 }
 
 .flexheader img {
+  margin-left: 16px;
   width: 97px;
   height: auto;
+}
+
+.headerTitle {
+  font-weight: 900;
+  font-size: 150%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headerSubTitle {
+  margin-bottom: 10px;
+
 }
