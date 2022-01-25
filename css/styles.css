@@ -10,6 +10,7 @@ main {
   padding: 0 32 0 32;
 }
 
+/*______header______*/
 .flexheader {
   padding: 30 0 30 0;
   display: flex;
@@ -44,6 +45,13 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width:768px) {
+  .header img{
+    text-align: center;
+  }
+}
+
+/*__________section search____________*/
 form {
   border-radius: 16px;
   display:inline-flex;
