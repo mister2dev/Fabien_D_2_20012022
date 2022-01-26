@@ -50,10 +50,13 @@ nav a:hover {
 }
 
 @media screen and (max-width:992px) {
-  .searchFilter div {
-    margin-bottom: 20px;
-    margin-right: 5px;
+  .searchFilter .iconBox {
+    margin-bottom: 10;
     color: red;
+  }
+
+  .searchFilter h2{
+    margin-bottom: 15;
   }
 }
 
@@ -101,28 +104,37 @@ form i {
 
 .searchFilter {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: baseline;
-  flex-wrap: wrap;
   font-weight: 900;
+  margin-bottom: 40;
 }
 
 .searchFilter h2 {
   padding: 0 36 0 10;
 }
 
-.searchFilter div {
+.searchFilter .iconBox {
   border: 2px solid #F2F2F2;
   border-radius: 25px;
   cursor: pointer;
-  margin-bottom: 40px;
-  margin-right: 20px;
   display: flex;
   align-items: center;
   height: 48;
 }
 
-.searchFilter div:hover {
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30;
+}
+
+.flex > .iconBox:nth-child(-n+3){
+  margin-right: 20px;
+}
+
+.searchFilter .iconBox:hover {
   border: 2px solid #0065FC;
   background: #F2F2F2;
   transition: ease-in;
