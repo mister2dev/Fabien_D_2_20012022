@@ -7,7 +7,7 @@
 main {
   max-width: 1440px;
   margin: auto;
-  padding: 0 32 0 32;
+  padding: 0 56 0 56;
 }
 
 /*______header______*/
@@ -17,6 +17,10 @@ main {
   justify-content: space-between;
   align-items: center;
 } 
+
+.flexheader ul {
+  display: flex;
+}
 
 nav a {
   padding: 32px;
@@ -45,9 +49,26 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width:992px) {
+  .searchFilter div {
+    margin-bottom: 20px;
+    margin-right: 5px;
+    color: red;
+  }
+}
+
 @media screen and (max-width:768px) {
-  .header img{
-    text-align: center;
+  .flexheader img {
+    margin: 0px;
+  }
+  .flexheader {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  nav a:hover {
+    border-bottom: 2px solid #0065FC;
   }
 }
 
@@ -61,7 +82,8 @@ form {
 }
 
 form input {
-  padding: 10;
+  padding-left: 10;
+  margin-right: -10;
 }
 
 form button {
@@ -79,14 +101,14 @@ form i {
 
 .searchFilter {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: baseline;
   flex-wrap: wrap;
   font-weight: 900;
-  max-width: 900px;
 }
 
 .searchFilter h2 {
-  padding: 16px 0 16px 10px;
+  padding: 0 36 0 10;
 }
 
 .searchFilter div {
@@ -94,6 +116,10 @@ form i {
   border-radius: 25px;
   cursor: pointer;
   margin-bottom: 40px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  height: 48;
 }
 
 .searchFilter div:hover {
@@ -107,10 +133,14 @@ form i {
   color: #0065FC;
   background: #DEEBFF;
   border-radius: 50%;
-  padding: 18px;
-  margin: -2px;
   position: relative;
-  right: 2px;
+  right: 3px;
+  height: 48;
+  width: 48;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .searchFilter span {
