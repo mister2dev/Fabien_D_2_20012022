@@ -61,8 +61,12 @@ nav a:hover {
 }
 
 @media screen and (max-width:768px) {
+  main {
+    margin: 0;
+    padding: 0;
+  }
   .flexheader img {
-    margin: 0px;
+    margin: 0 0 30 0;
   }
   .flexheader {
     flex-wrap: wrap;
@@ -70,7 +74,7 @@ nav a:hover {
     flex-direction: column;
   }
 
-  nav a:hover {
+  nav li:hover {
     border-bottom: 2px solid #0065FC;
   }
 }
