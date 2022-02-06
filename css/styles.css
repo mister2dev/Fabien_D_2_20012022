@@ -49,18 +49,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width:992px) {
-  .searchFilter .iconBox {
-    margin-bottom: 10;
-    color: red;
-  }
-
-  .searchFilter h2{
-    margin-bottom: 15;
-  }
-}
-
-
 /*__________section search____________*/
 form {
   border-radius: 16px;
@@ -167,6 +155,67 @@ form i {
 
 .searchIcon i {
   display: none;
+}
+
+/*______section location_______*/
+
+.premier_bloc h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+article h3 {
+  font-weight: bold;
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  padding: 40;
+}
+
+.premier_bloc article {
+  padding: 5;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
+}
+
+.premier_bloc img {
+  border-radius: 20px 20px 0 0;
+  width: 100;
+}
+
+.blueStar {
+  color: #0065FC;
+}
+
+.greyStar {
+  color: #F2F2F2;
+}
+
+.premier_bloc section {
+  background-color: #F2F2F2;
+}
+
+.popular {
+  display: flex;
+  border-radius: 20px;
+  padding: 40;
+}
+
+
+@media screen and (max-width:992px) {
+  .searchFilter .iconBox {
+    margin-bottom: 10;
+    color: red;
+  }
+
+  .searchFilter h2{
+    margin-bottom: 15;
+  }
 }
 
 @media screen and (max-width:768px) {
