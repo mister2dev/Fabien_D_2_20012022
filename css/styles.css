@@ -49,18 +49,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width:992px) {
-  .searchFilter .iconBox {
-    margin-bottom: 10;
-    color: red;
-  }
-
-  .searchFilter h2{
-    margin-bottom: 15;
-  }
-}
-
-
 /*__________section search____________*/
 form {
   border-radius: 16px;
@@ -84,7 +72,7 @@ form button {
 
 form i {
   padding: 16 20 16 18;
-  border-radius: 16px 0 0 16px;
+  border-radius: 14px 0 0 14px;
   background: #F2F2F2;
 }
 
@@ -120,6 +108,10 @@ form i {
   margin-right: 20px;
 }
 
+.searchIcon i {
+  display: none;
+}
+
 .searchFilter .iconBox:hover {
   border: 2px solid #0065FC;
   background: #F2F2F2;
@@ -145,6 +137,10 @@ form i {
   padding: 14px;
 }
 
+.searchFilter span {
+  font-size: 15;
+}
+
 .searchResult {
   align-items: center;
   margin-bottom: 50px;
@@ -165,11 +161,29 @@ form i {
   color: #0065FC;
 }
 
-.searchIcon i {
-  display: none;
+@media screen and (max-width:992px) {
+
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+
+  .searchFilter .iconBox {
+    margin-bottom: 10;
+    color: red;
+  }
+
+  .searchFilter {
+    flex-direction: column;
+  }
+
+  .searchFilter h2{
+    margin-bottom: 15;
+  }
 }
 
-@media screen and (max-width:768px) {
+/*
+@media screen and (max-width:992px) {
   main {
     margin: 0;
     padding: 0;
@@ -183,6 +197,7 @@ form i {
 
   .flexheader nav {
     width: 100%;
+    font-size: 15;
   }
 
   .flexheader li {
@@ -233,4 +248,16 @@ form i {
   .searchIcon span {
     display: none;
   }
+
+  .searchIcon i {
+    display: contents;
+  }
+
+  .searchIcon {
+    width: 50;
+    border-radius: 14px;
+  }
 }
+
+
+*/
