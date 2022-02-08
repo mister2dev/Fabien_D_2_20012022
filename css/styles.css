@@ -161,6 +161,72 @@ form i {
   color: #0065FC;
 }
 
+/*______section location_______*/
+
+.premier_bloc h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+article h3 {
+  font-weight: bold;
+}
+
+.location {
+  border-radius: 20px;
+  padding: 40;
+  flex-grow: 2;
+}
+
+.locbloc, .popbloc{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10 0 10 0;
+}
+
+.premier_bloc article {
+  padding: 5;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
+  
+}
+
+.premier_bloc {
+  display: flex;
+}
+
+.premier_bloc img {
+  border-radius: 20px 20px 0 0;
+  width: 100;
+  object-fit: cover;
+}
+
+.blueStar {
+  color: #0065FC;
+}
+
+.greyStar {
+  color: #F2F2F2;
+}
+
+.premier_bloc section {
+  background-color: #F2F2F2;
+}
+
+.popular {
+  margin-left: 40;
+  border-radius: 20px;
+  padding: 40;
+  flex-shrink: 2;
+}
+
+.popularTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width:992px) {
 
   .main {
@@ -170,7 +236,6 @@ form i {
 
   .searchFilter .iconBox {
     margin-bottom: 10;
-    color: red;
   }
 
   .searchFilter {
@@ -182,8 +247,7 @@ form i {
   }
 }
 
-/*
-@media screen and (max-width:992px) {
+@media screen and (max-width:768px) {
   main {
     margin: 0;
     padding: 0;
@@ -258,6 +322,3 @@ form i {
     border-radius: 14px;
   }
 }
-
-
-*/
