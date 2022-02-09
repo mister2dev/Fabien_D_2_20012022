@@ -7,12 +7,12 @@
 main {
   max-width: 1440px;
   margin: auto;
-  padding: 0 56 0 56;
+  padding: 0px 56px 0px 56px;
 }
 
 /*______header______*/
 .flexheader {
-  padding: 30 0 30 0;
+  padding: 30px 0px 30px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,24 +55,24 @@ form {
   display:inline-flex;
   font-weight: 900;
   border: 1px solid #F2F2F2;
-  margin-bottom: 26;
+  margin-bottom: 26px;
 }
 
 form input {
-  padding-left: 10;
-  margin-right: -10;
+  padding-left: 10px;
+  margin-right: -10px;
 }
 
 form button {
-  padding: 12;
+  padding: 12px;
   color: white;
   background: #0065FC;
-  border-radius: 0 16px 16px 0;
+  border-radius: 0px 16px 16px 0px;
 }
 
 form i {
-  padding: 16 20 16 18;
-  border-radius: 14px 0 0 14px;
+  padding: 16px 20px 16px 18px;
+  border-radius: 14px 0px 0px 14px;
   background: #F2F2F2;
 }
 
@@ -82,11 +82,11 @@ form i {
   justify-content: flex-start;
   align-items: baseline;
   font-weight: 900;
-  margin-bottom: 40;
+  margin-bottom: 40px;
 }
 
 .searchFilter h2 {
-  padding: 0 36 0 10;
+  padding: 0px 36px 0px 10px;
 }
 
 .searchFilter .iconBox {
@@ -95,13 +95,13 @@ form i {
   cursor: pointer;
   display: flex;
   align-items: center;
-  height: 48;
+  height: 48px;
 }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 30;
+  margin-right: 30px;
 }
 
 .flex > .iconBox:nth-child(-n+3){
@@ -125,8 +125,8 @@ form i {
   border-radius: 50%;
   position: relative;
   right: 3px;
-  height: 48;
-  width: 48;
+  height: 48px;
+  width: 48px;
   font-size: larger;
   display: flex;
   justify-content: center;
@@ -138,7 +138,7 @@ form i {
 }
 
 .searchFilter span {
-  font-size: 15;
+  font-size: 15px;
 }
 
 .searchResult {
@@ -166,21 +166,22 @@ form i {
 
 .premier_bloc {
   display: flex;
+  margin-bottom: 60px;
 }
 
 .premier_bloc section {
   background-color: #F2F2F2;
 }
 
-.premier_bloc h1 {
+h1 {
   font-size: 140%;
   font-weight: bold;
-  margin-bottom: 22;
+  margin-bottom: 22px;
 }
 
 .location {
   border-radius: 20px;
-  padding: 40 10 40 40;
+  padding: 40px 10px 40px 40px;
   flex-grow: 2;
   flex: 2.5;
 }
@@ -188,7 +189,7 @@ form i {
 .locbloc {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 }
 
 .premier_bloc article {
@@ -198,16 +199,23 @@ form i {
   overflow: hidden;
   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
   flex: 2;
+  transition: all .2s ease-in-out;
+}
+.premier_bloc article:hover {
+  transform: scale(1.05);
 }
 
 .location article {
-  min-width: 26%;
-  margin: 0 30 30 0;
+  margin: 0px 30px 30px 0px;
+}
+
+.location a {
+  min-width: 33%;
 }
 
 .location article img {
-  height: 110;
-  margin-bottom: 5;
+  height: 110px;
+  margin-bottom: 5px;
 }
 
 .location h3, .popular h3, span {
@@ -221,13 +229,13 @@ form i {
 .location .description {
   display: flex;
   flex-direction: column;
-  height: 70;
+  height: 70px;
   justify-content: space-around;
-  padding: 10;
+  padding: 10px;
 }
 
 .hotelRate i {
-  font-size: 14;
+  font-size: 14px;
 }
 
 .blueStar {
@@ -240,7 +248,7 @@ form i {
 
 .plus {
   font-weight: bold;
-  margin-left: 14;
+  margin-left: 14px;
   cursor: pointer;
 }
 
@@ -251,37 +259,102 @@ form i {
 }
 
 .popularTitle i {
-  font-size: 26;
+  font-size: 26px;
 }
 
 .popular {
-  margin-left: 40;
+  margin-left: 40px;
   border-radius: 20px;
-  padding: 40 40 0 40;
+  padding: 40px 40px 0px 40px;
   flex: 1;
 }
 
 .popular article {
   display: flex;
-  height: 140;
-  margin-bottom: 40;
+  height: 140px;
+  margin-bottom: 40px;
 }
 
 .popular img {
   object-fit: cover;
-  width: 130;
+  width: 130px;
 }
 
 .popular .description {
-  padding: 6 8 6 20;
+  padding: 6px 8px 6px 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .description p {
-  margin-top: 6;
+  margin-top: 6px;
   margin-bottom: auto;
+}
+
+.second_bloc {
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+}
+
+.second_bloc img {
+  object-fit: cover;
+  height: 80%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column article {
+  overflow: hidden;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
+  transition: all .2s ease-in-out;
+}
+
+.column article:hover {
+  transform: scale(1.05);
+}
+
+.vieux_port, .parc {
+  height: 100%;
+}
+
+.vieux_port article, .parc article {
+  height: 100%;
+}
+
+.column .descriptionbis {
+  font-weight: bold;
+  padding: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 50px;
+  display: flex;
+  background-color: #F2F2F2;
+}
+
+footer h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer div {
+  flex: 1;
+}
+
+@media screen and (max-width:1280px) {
+  .main {
+    display: none;
+  }
 }
 
 @media screen and (max-width:992px) {
@@ -292,7 +365,7 @@ form i {
   }
 
   .searchFilter .iconBox {
-    margin-bottom: 10;
+    margin-bottom: 10px;
   }
 
   .searchFilter {
@@ -300,7 +373,7 @@ form i {
   }
 
   .searchFilter h2{
-    margin-bottom: 15;
+    margin-bottom: 15px;
   }
 }
 
@@ -310,7 +383,7 @@ form i {
     padding: 0;
   }
   .flexheader img {
-    margin: 0 0 30 0;
+    margin: 0px 0px 30px 0px;
   }
   .flexheader {
     flex-direction: column;
@@ -318,13 +391,13 @@ form i {
 
   .flexheader nav {
     width: 100%;
-    font-size: 15;
+    font-size: 15px;
   }
 
   .flexheader li {
     width: 50%;
     border-bottom: 3px solid #F2F2F2;
-    padding-bottom: 6;
+    padding-bottom: 6px;
   }
 
   .flexheader li:hover{
@@ -344,26 +417,26 @@ form i {
 
   .headerTitle{
     margin-top: inherit;
-    margin: 0 20 14 20;
+    margin: 0px 20px 14px 20px;
   }
 
   .headerSubTitle{
-    margin: 10 20;
+    margin: 10px 20px;
   }
 
   .search {
-    margin: 0 20;
+    margin: 0px 20px;
   }
   .search form {
-    margin-top: 24;
+    margin-top: 24px;
   }
 
   .headerTitle {
-    font-size: 22;
+    font-size: 22px;
   }
   
   .headerSubTitle {
-    font-size: 15;
+    font-size: 15px;
   }
 
   .searchIcon span {
@@ -375,7 +448,7 @@ form i {
   }
 
   .searchIcon {
-    width: 50;
+    width: 50px;
     border-radius: 14px;
   }
 }
