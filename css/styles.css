@@ -294,12 +294,12 @@ form i {
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 40px;
+  width: 25%;
 }
 
 .column article {
   overflow: hidden;
-  margin-right: 40px;
-  margin-bottom: 40px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
@@ -308,7 +308,7 @@ form i {
   flex-direction: column;
 }
 
-.last_column article {
+.last_column {
   margin-right: 0px;
 }
 
@@ -467,8 +467,12 @@ footer div {
   }
   
   .second_bloc article {
-    margin-right: 0px;
     margin-bottom: 50px;
+  }
+
+  .second_bloc .column {
+    margin-right: 0px;
+    width: inherit;
   }
 
   .second_bloc a {
