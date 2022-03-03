@@ -109,13 +109,13 @@ form i {
   height: 48px;
 }
 
-.filter_flex {
+.filter-flex {
   display: flex;
   flex-wrap: wrap;
   margin-right: 30px;
 }
 
-.filter_flex > .iconBox:nth-child(-n+3){
+.filter-flex > .iconBox:nth-child(-n+3){
   margin-right: 20px;
 }
 
@@ -282,12 +282,12 @@ form i {
 
 /*--SECTION ACTIVITIES--*/
 
-.second_bloc {
+.second-bloc {
   display: flex;
   height: 450px;
 }
 
-.second_bloc img {
+.second-bloc img {
   object-fit: cover;
   flex: 1;
 }
@@ -309,19 +309,19 @@ form i {
   flex-direction: column;
 }
 
-.last_column {
-  margin-right: 0px;
-}
-
 .column article:hover {
   transform: scale(1.05);
 }
 
-.vieux_port, .parc {
+.last-column {
+  margin-right: 0px;
+}
+
+.vieux-port, .parc {
   height: 100%;
 }
 
-.vieux_port article, .parc article {
+.vieux-port article, .parc article {
   height: 100%;
 }
 
@@ -351,17 +351,17 @@ form i {
   height: 100%;
 }
 
-.notre_dame {
+.notre-dame {
   height: 20%;
   flex: 1;
   margin-bottom: 40px;
 }
 
-.notre_dame article {
+.notre-dame article {
   height: 100%;
 }
 
-.notre_dame article img {
+.notre-dame article img {
   height: 100%;
 }
 
@@ -466,25 +466,25 @@ footer div {
     min-width: 50%;
   }
 
-  .second_bloc {
+  .second-bloc {
     flex-direction: column;
     height: auto;
   }
   
-  .second_bloc article {
+  .second-bloc article {
     margin-bottom: 50px;
   }
 
-  .second_bloc .column {
+  .second-bloc .column {
     margin-right: 0px;
     width: inherit;
   }
 
-  .second_bloc a {
+  .second-bloc a {
     margin-bottom: 0px;
   }
 
-  .second_bloc img, .fort article img, .iles article img, .notre_dame article img, .parc2 article img {
+  .second-bloc img, .fort article img, .iles article img, .notre-dame article img, .parc2 article img {
     flex: none;
     height: 140px;
   }
@@ -573,11 +573,11 @@ footer div {
     border-radius: 14px;
   }
 
-  .filter_flex {
+  .filter-flex {
     margin: 0px;
   }
 
-  .filter_flex > .iconBox:nth-child(-n+3) {
+  .filter-flex > .iconBox:nth-child(-n+3) {
     margin-right: 10px;
   }
 
@@ -617,12 +617,12 @@ footer div {
     margin-left: 15px;
   }
 
-  .second_bloc {
+  .second-bloc {
     padding: 0px 15px;
     margin-bottom: 20px;
   }
 
-  .second_bloc article {
+  .second-bloc article {
     margin-bottom: 20px;
   }
 
