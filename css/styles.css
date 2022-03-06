@@ -70,10 +70,11 @@ form {
 form input {
   padding-left: 10px;
   margin-right: -10px;
+  width: 240px;
 }
 
 form button {
-  padding: 12px;
+  padding: 0px 20px;
   color: white;
   background: #0065FC;
   border-radius: 0px 16px 16px 0px;
@@ -112,10 +113,9 @@ form i {
 .filter-flex {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 30px;
 }
 
-.filter-flex > .icon-box:nth-child(-n+3){
+.filter-flex .icon-box{
   margin-right: 20px;
 }
 
@@ -553,6 +553,10 @@ footer div {
 
 /*--FILTER MOBILE--*/
 
+form button {
+  padding: 0px;
+  }
+
   .search {
     margin: 0px 20px;
   }
@@ -577,7 +581,7 @@ footer div {
     margin: 0px;
   }
 
-  .filter-flex > .icon-box:nth-child(-n+3) {
+  .filter-flex .icon-box {
     margin-right: 10px;
   }
 
