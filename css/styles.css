@@ -4,7 +4,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-main {
+.container {
   max-width: 1440px;
   margin: auto;
   padding: 0px 56px 0px 56px;
@@ -499,7 +499,7 @@ footer div {
 /*--VERSION MOBILE--*/
 
 @media screen and (max-width:768px) {
-  main {
+  .container {
     margin: 0;
     padding: 0;
   }
