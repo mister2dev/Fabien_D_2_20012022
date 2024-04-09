@@ -7,7 +7,7 @@
 ## Objectifs
 
 - Intégration des maquettes de design en HTML / CSS selon un template fourni.
-- Appliquer la logique desktop first puis la version tablette et enfin la version mobile
+- Appliquer la logique desktop first puis la version tablette et enfin la version mobile.
 - Publier le résultat sur GitHub Pages.
 
 ## GitHub Pages
