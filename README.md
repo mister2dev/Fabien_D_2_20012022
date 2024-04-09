@@ -1,6 +1,6 @@
 # BOOKI
 
-## Projet n°2 OPENCLASSROOMS - Intégration de la maquette du site Booki
+## Projet 2 OPENCLASSROOMS - Intégration de la maquette du site Booki
 
 ![Maquette](images/sample.png)
 
