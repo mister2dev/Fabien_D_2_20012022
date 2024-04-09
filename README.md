@@ -1,5 +1,7 @@
 # Projet n°2 OPENCLASSROOMS - Intégration de la maquette du site Booki
 
+![Maquette](images/sample.png)
+
 ## Objectifs
 
 - Intégration des maquettes de design en HTML / CSS selon un template fourni.
