@@ -8,7 +8,7 @@
 
 ## GitHub Pages
 
-Site accessible à cette adresse : mister2dev.github.io/reservia
+Site accessible à cette adresse : [mister2dev.github.io/reservia/](https://mister2dev.github.io/reservia/ "https://mister2dev.github.io/reservia/")
 
 ## Livrables :
 
