@@ -1,6 +1,6 @@
 # BOOKI
 
-## Projet 2 OPENCLASSROOMS - Intégration de la maquette du site Booki
+## Projet 2 du parcours Développeur Web d'Openclassrooms.
 
 ![Maquette](images/sample.png)
 
