@@ -12,7 +12,7 @@
 
 ## GitHub Pages
 
-Site accessible à cette adresse : [mister2dev.github.io/reservia/](https://mister2dev.github.io/reservia/ "https://mister2dev.github.io/reservia/")
+Site accessible à cette adresse : [mister2dev.github.io/reservia/](https://mister2dev.github.io/Fabien_D_2_20012022/ "https://mister2dev.github.io/Fabien_D_2_20012022/")
 
 ## Livrables :
 
